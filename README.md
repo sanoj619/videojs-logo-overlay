@@ -1,5 +1,7 @@
 #videojs-logo-overlay
 
+Show logo image over videojs container.
+
 
 ## Usage
 
@@ -51,3 +53,9 @@ videojs('vidId').ready(function() {
 
 ####height
 `(number)` Logo image's height px. (default `null`)
+
+
+## License
+
+http://www.apache.org/licenses/LICENSE-2.0  
+[[LICENSE.md]](https://github.com/marufactory2/videojs-logo-overlay/blob/master/LICENSE.md)
