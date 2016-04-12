@@ -6,19 +6,19 @@
 ### Include the plugin JS/CSS:
 
 ```html
-<link rel="stylesheet" href="c/path/to/videojs-logo-overlay.css">
+<link rel="stylesheet" href="/path/to/videojs-logo-overlay.css">
 <script src="/path/to/videojs-logo-overlay.js"></script>
 ```
 
 ### Enable the plugin
-Add videojs-logo-overlay plugin to your Videojs ready function.
-Check the [Options](#options) section below for the available options and their meaning.
+Add videojs-logo-overlay plugin to your Videojs ready function.  
+Check the available [Options](#options) to customizing your own logo image.
 
 ```js
 videojs('vidId').ready(function() {
   this.logoOverlay({
-    src: 'PATH/logo.png',
-    link: 'PATH/linkURL'
+    src: '/path/logo.png',
+    link: 'http://linkURL'
   });
 });
 ```
@@ -44,7 +44,7 @@ videojs('vidId').ready(function() {
 
 ####position 
 
-`(string)` Logo image's position value. **TL** : Top-Left, **TR** : Top-Right, **BL** : Bottom-Left, **BR** : Bottom-Right (default: `TL`)
+`(string)` Logo image's position value. **TL** : Top-Left, **TR** : Top-Right, **BL** : Bottom-Left, **BR** : Bottom-Right. (default: `TL`)
 
 ####width 
 `(number)` Logo image's width px. (default `null`)
