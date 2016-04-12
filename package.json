@@ -1,0 +1,30 @@
+{
+  "name": "videojs-logo-overlay",
+  "version": "1.0.0",
+  "description": "videojs logo overlay plugin",
+  "main": "videojs-logo-overlay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marufactory2/videojs-logo-overlay.git"
+  },
+  "keywords": [
+    "videojs",
+    "logo-overlay"
+  ],
+  "author": "marufactory",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/marufactory2/videojs-logo-overlay/issues"
+  },
+  "homepage": "https://github.com/marufactory2/videojs-logo-overlay#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}
