@@ -14,7 +14,6 @@ Show logo image over videojs container.
 
 ### Enable the plugin
 Add videojs-logo-overlay plugin to your Videojs function.  
-Check the available [Options](#options) to customizing your own logo image.
 
 ```js
 videojs('vidId', {
@@ -36,6 +35,7 @@ videojs('vidId').ready(function() {
   });
 });
 ```
+Check the available [Options](#options) to customizing your own logo image.
 
 ## Options
 
@@ -47,10 +47,19 @@ videojs('vidId').ready(function() {
 
 `(string)` A HTML tag's href attribute value. Default target is set to _blank.  (default: `#`)
 
+####linkTarget
+
+`(string)` LinkTarget specifies where to open the linked document. (default: `_blank`)
 
 ####margin 
 
-`(number)` Logo image's margin from video container's corner. (default: `0`)
+Apply margin to logo image from video container's corner. Margin values can be applied to three types.
+
+`(number)` Apply value to top, right, bottom, left at once. (default: `0`)
+
+`(array)` [top, right, bottom, left] or [top/bottom, right/left]. Value type is number.
+
+`(object)` {'top': value, 'right': value, 'bottom': value, 'left': value}. Value type is number.
 
 ####userActive 
 
@@ -69,5 +78,4 @@ videojs('vidId').ready(function() {
 
 ## License
 
-http://www.apache.org/licenses/LICENSE-2.0  
-[[LICENSE.md]](https://github.com/marufactory2/videojs-logo-overlay/blob/master/LICENSE.md)
+http://www.apache.org/licenses/LICENSE-2.0
