@@ -1,6 +1,5 @@
 #logo_overlay_image_container {
 	position: absolute;
-	transition: visibility 0.1s ease 0s, opacity 0.1s ease 0s;
     visibility: visible;
     border: 0px;
 }
@@ -13,11 +12,11 @@
     left: 0px;
 }
 #logo_overlay_image_container.BR {
-    bottom: 40px;
+    bottom: 0px;
     right: 0px;
 }
 #logo_overlay_image_container.BL {
-    bottom: 40px;
+    bottom: 0px;
     left: 0px;
 }
 #logo_overlay_image {

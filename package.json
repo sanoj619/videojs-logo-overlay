@@ -1,6 +1,6 @@
 {
   "name": "videojs-logo-overlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "videojs logo overlay plugin",
   "main": "videojs-logo-overlay.js",
   "scripts": {
