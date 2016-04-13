@@ -13,8 +13,20 @@ Show logo image over videojs container.
 ```
 
 ### Enable the plugin
-Add videojs-logo-overlay plugin to your Videojs ready function.  
+Add videojs-logo-overlay plugin to your Videojs function.  
 Check the available [Options](#options) to customizing your own logo image.
+
+```js
+videojs('vidId', {
+  'plugins': {
+    'logoOverlay': {
+      'src': '/path/logo.png'
+    }
+  }
+});
+```
+
+or add logoOverlay initialize function after Videojs is ready.
 
 ```js
 videojs('vidId').ready(function() {
