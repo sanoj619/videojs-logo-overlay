@@ -3,6 +3,7 @@
 Show logo image over videojs container.
 
 
+
 ## Usage
 
 ### Include the plugin JS/CSS:
@@ -74,6 +75,22 @@ Apply margin to logo image from video container's corner. Margin values can be a
 
 ####height
 `(number)` Logo image's height px. (default `null`)
+
+####baseMinSize
+`(array)` When logo image's size is smaller than baseMinSize, logo image is start resizing based videojs container's ratio. (default `[640, 360]`)
+
+####baseMaxSize
+`(array)` When logo image's size is bigger than baseMaxSize, logo image is start resizing based videojs container's ratio. (default `[1280, 720]`)
+
+
+## Browser Support
+
+- Chrome
+- Opera
+- Safari
+- FireFox
+- IE9 later (IE8 is not supported yet. It'll be soon...)
+- Android and iOS
 
 
 ## License
