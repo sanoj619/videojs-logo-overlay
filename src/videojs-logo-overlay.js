@@ -27,7 +27,7 @@
      * @param {Object} ratio     logo image size ratio
      */
     var setMargin = function(container, settings, ratio) {
-        if (ratio == null) {
+        if (ratio === null) {
             ratio = 1;
         }
         if (typeof settings.margin == 'object') {
@@ -95,11 +95,11 @@
             image.width = org_size[0] * ratio;
 
             setMargin(container, settings, ratio);
-        }
+        };
         window.onresize();
 
         player.el().appendChild(container);
-    }
+    };
 
     /**
      * plugin initialize
